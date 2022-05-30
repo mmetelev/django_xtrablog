@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-29 20:29+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: templates/base.html:22
+msgid "Search..."
+msgstr "Поиск..."
+
+#: templates/blog/include/paginator.html:8
+msgid "Prev"
+msgstr "Назад"
+
+#: templates/blog/include/paginator.html:12
+msgid "Next"
+msgstr "Вперед"
+
+#: templates/blog/include/sidebar.html:5
+msgid "Categories"
+msgstr "Категории"
+
+#: templates/blog/include/sidebar.html:13
+msgid "Related Posts"
+msgstr "Похожие посты"
+
+#: templates/blog/post_detail.html:32
+msgid "Comments"
+msgstr "Комментарии"
+
+#: templates/blog/post_detail.html:52
+msgid "REPLY"
+msgstr "Ответить"
+
+#: templates/blog/post_detail.html:62
+msgid "Your comment"
+msgstr "Твой комментарий"
+
+#: templates/blog/post_detail.html:75 templates/contact/contact.html:59
+msgid "Submit"
+msgstr "Отправить"
+
+#: templates/blog/post_list.html:14
+msgid "New"
+msgstr "Новый"
+
+#: templates/contact/about.html:14
+msgid "About this xtra blog"
+msgstr "Об xtra блоге"
+
+#: templates/contact/contact.html:17 templates/include/header.html:33
+msgid "Contact Us"
+msgstr "Контакты"
+
+#: templates/contact/contact.html:24
+msgid "Name"
+msgstr "Имя"
+
+#: templates/contact/contact.html:44
+msgid "Message"
+msgstr "Сообщение"
+
+#: templates/contact/contact.html:52
+msgid "Captcha"
+msgstr "Капча"
+
+#: templates/contact/contact.html:67
+msgid "Tel:"
+msgstr "Тел:"
+
+#: templates/include/header.html:17
+msgid "Blog Home"
+msgstr "Главная блога"
+
+#: templates/include/header.html:22
+msgid "Single Post"
+msgstr "Публикация"
+
+#: templates/include/header.html:28
+msgid "About Xtra"
+msgstr "Об Xtra"
+
+#, fuzzy
+#~| msgid "Post title text"
+#~ msgid "Post title text[ru]"
+#~ msgstr "Текст в ленте [ru]"
+
+#, fuzzy
+#~| msgid "Post title text"
+#~ msgid "Post title text[en]"
+#~ msgstr "Текст в ленте [ru]"
+
+#, fuzzy
+#~| msgid "Post description"
+#~ msgid "Post description[ru]"
+#~ msgstr "Описание поста [ru]"
+
+#, fuzzy
+#~| msgid "Post description"
+#~ msgid "Post description[en]"
+#~ msgstr "Описание поста [en]"
+
+#~ msgid "Category title"
+#~ msgstr "Имя категории"
+
+#~ msgid "Category URL"
+#~ msgstr "Ссылка"
+
+#~ msgid "Category"
+#~ msgstr "Категорию"
+
+#~ msgid "Category's"
+#~ msgstr "Категории"
+
+#~ msgid "Post image"
+#~ msgstr "Картинка поста"
+
+#~ msgid "Post video"
+#~ msgstr "Видео"
+
+#~ msgid "Post name"
+#~ msgstr "Имя поста"
+
+#~ msgid "Text in post list"
+#~ msgstr "Текст в ленте"
+
+#~ msgid "Full post text"
+#~ msgstr "Полный текст поста"
+
+#~ msgid "Post creation date"
+#~ msgstr "Дата создания поста"
+
+#~ msgid "Post category"
+#~ msgstr "Категория поста"
+
+#~ msgid "Post author"
+#~ msgstr "Автор поста"
+
+#~ msgid "Visible status"
+#~ msgstr "Видимость"
+
+#~ msgid "New post indicator"
+#~ msgstr "Индикация нового поста"
+
+#~ msgid "Post URL"
+#~ msgstr "Ссылка"
+
+#~ msgid "Post"
+#~ msgstr "Пост"
+
+#~ msgid "Posts"
+#~ msgstr "Посты"
+
+#~ msgid "User image"
+#~ msgstr "Картинка пользователя"
+
+#~ msgid "Authors name"
+#~ msgstr "Имя автора"
+
+#~ msgid "Comment text"
+#~ msgstr "Текст комментария"
+
+#~ msgid "Comment creation date"
+#~ msgstr "Дата создания"
+
+#~ msgid "User email"
+#~ msgstr "Почта"
+
+#~ msgid "Relevant post"
+#~ msgstr "Похожие посты"
+
+#~ msgid "Comment visibility"
+#~ msgstr "Видимость комментария"
+
+#~ msgid "Parent comment"
+#~ msgstr "Родительский комментарий"
+
+#~ msgid "Comment"
+#~ msgstr "Комментарий"
+
+#~ msgid "Text about"
+#~ msgstr "Текст о нас"
+
+#~ msgid "Hero image"
+#~ msgstr "Картинка о нас"
+
+#~ msgid "Text body"
+#~ msgstr "Текст о нас"
+
+#~ msgid "Blog location"
+#~ msgstr "Адрес"
+
+#~ msgid "Blog Tel"
+#~ msgstr "Телефон"
+
+#~ msgid "Blog email"
+#~ msgstr "Эл.почта"
+
+#~ msgid "Additional description of contacts"
+#~ msgstr "Дополнительная информация контактов"
+
+#~ msgid "About"
+#~ msgstr "О нас"
+
+#~ msgid "Abouts"
+#~ msgstr "О нас"
+
+#~ msgid "Employee photo"
+#~ msgstr "Фото сотрудника"
+
+#~ msgid "Employee name"
+#~ msgstr "Имя сотрудника"
+
+#~ msgid "Position in the organization"
+#~ msgstr "Должность"
+
+#~ msgid "Message from Employee"
+#~ msgstr "Послание от работника"
+
+#~ msgid "Team"
+#~ msgstr "В команду"
+
+#~ msgid "Teams"
+#~ msgstr "Команда"
+
+#~ msgid "Name contact user"
+#~ msgstr "Имя клиента"
+
+#~ msgid "Email in form"
+#~ msgstr "Почта"
+
+#~ msgid "Subject in form"
+#~ msgstr "Тема"
+
+#~ msgid "Message from user"
+#~ msgstr "Сообщение от клиента"
+
+#~ msgid "Contact"
+#~ msgstr "Контакты"
+
+#~ msgid "Contacts"
+#~ msgstr "Контакты"
+
+#~ msgid "Svg image"
+#~ msgstr "SVG картинка"
+
+#~ msgid "Card name"
+#~ msgstr "Имя карточки"
+
+#~ msgid "Card text"
+#~ msgstr "Текст карточки"
+
+#~ msgid "Card"
+#~ msgstr "Карточка"
+
+#~ msgid "Cards"
+#~ msgstr "Карточки"

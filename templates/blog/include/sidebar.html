@@ -1,0 +1,22 @@
+{% load blog_tags i18n %}
+
+<div class="tm-post-sidebar">
+    <hr class="mb-3 tm-hr-primary">
+    <h2 class="mb-4 tm-post-title tm-color-primary">{% translate 'Categories' %}</h2>
+    {% get_all_category as categories %}
+    <ul class="tm-mb-75 pl-5 tm-category-list">
+        {% for category in categories %}
+            <li><a href="{% url 'category_list' category.slug %}" class="tm-color-primary">{{ category.title }}</a></li>
+        {% endfor %}
+    </ul>
+    <hr class="mb-3 tm-hr-primary">
+    <h2 class="tm-mb-40 tm-post-title tm-color-primary">{% translate 'Related Posts' %}</h2>
+    {% for post in tag_list %}
+        <a href="{{ post.get_absolute_url }}" class="d-block tm-mb-40">
+            <figure>
+                <img src="{{ post.image.url }}" alt="Image" class="mb-3 img-fluid">
+                <figcaption class="tm-color-primary">{{ post.title }}</figcaption>
+            </figure>
+        </a>
+    {% endfor %}
+</div>

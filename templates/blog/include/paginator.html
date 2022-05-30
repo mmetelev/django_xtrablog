@@ -1,0 +1,40 @@
+{% load i18n %}
+
+<div class="row tm-row tm-mt-100 tm-mb-75">
+    {% if page_obj.has_other_pages %}
+        <div class="tm-prev-next-wrapper">
+            {% if page_obj.has_previous %}
+                <a href="?page={{ page_obj.previous_page_number }}"
+                   class="mb-2 tm-btn tm-btn-primary tm-prev-next tm-mr-20">{% translate 'Prev' %}</a>
+            {% endif %}
+            {% if page_obj.has_next %}
+                <a href="?page={{ page_obj.next_page_number }}"
+                   class="mb-2 tm-btn tm-btn-primary tm-prev-next">{% translate 'Next' %}</a>
+            {% endif %}
+        </div>
+    {% endif %}
+    <div class="tm-paging-wrapper">
+        {% if page_obj.has_other_pages %}
+            <span class="d-inline-block mr-3">Page</span>
+        {% endif %}
+        {% if page_obj.has_other_pages %}
+            <nav class="tm-paging-nav d-inline-block">
+                <ul>
+                    {% for p in paginator.page_range %}
+                        {% if page_obj.number == p %}
+                            <li class="tm-paging-item active">
+                                <a href="{{ p }}{% if request.GET.q %}&q={{ request.GET.q }}{% endif %}"
+                                   class="mb-2 tm-btn tm-paging-link">{{ p }}</a>
+                            </li>
+                        {% elif p >= page_obj.number|add:-2 and p <= page_obj.number|add:2 %}
+                            <li class="tm-paging-item">
+                                <a href="?page={{ p }}{% if request.GET.q %}&q={{ request.GET.q }}{% endif %}"
+                                   class="mb-2 tm-btn tm-paging-link">{{ p }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </nav>
+        {% endif %}
+    </div>
+</div>
